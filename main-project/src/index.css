@@ -2,4 +2,48 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#albums-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+}
+
+#albums-container input {
+  margin-top: 0.5em;
+  padding: 0.3em;
+  font-size: 1.2em !important;
+}
+
+#albums-container .label {
+  font-size: 2em;
+}
+
+.album {
+  box-shadow: 0 1px 4px rgba(0,0,0,.15);
+  padding: 0.5em;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.album img {
+  margin-right: 1em;
+}
+
+.album a {
+  font-style: normal;
+  font-size: 1.2em;
 }
