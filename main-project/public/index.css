@@ -24,10 +24,12 @@ a:hover {
   font-size: 1.2em !important;
   border-radius: 5px;
   margin-bottom: 20px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 10px rgba(150, 149, 149, 0.397);
   border: rgba(46, 43, 43, 0.157);
 }
-
+.album:hover {
+  flex-grow: 0 0 80% !important;
+}
 #albums-container .label {
   font-size: 2em;
 }
